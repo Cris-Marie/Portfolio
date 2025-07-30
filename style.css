@@ -17,6 +17,22 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+h2.titulo {
+    background-color: #ff4242;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #ff0000;
+    transform: scale(1.05);
+}
+
 /* ESTILO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -31,6 +47,7 @@ header > .interface{
 
 header a{   /* a = links */
     color: #7d7d7d;
+    font-size: 20px;
     text-decoration: none;
     display: inline-block   /* necessário p/ aplicar efeitos em links */
 }
@@ -38,6 +55,7 @@ header a{   /* a = links */
 header a:hover{   /* Hover: coisas q serão aplicadas quando o mouse passar por cima */
     color: #ffffff;
     transform: scale(1.05);
+    transition: .2s;
 }
 
 header nav ul {
@@ -47,4 +65,129 @@ header nav ul {
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+}
+
+/*   ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-do-site p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 35px 0;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ff4242;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/* ESTILO DOS MEUS PROJETOS */
+section.meus-projetos{
+    padding: 40px 4%;
+}
+
+section.meus-projetos .flex{
+    gap: 60px;
+}
+
+.meus-projetos .projetos-box{
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    /*border: 2px solid #ffffff;*/
+    margin-top: 40px;
+}
+
+.meus-projetos .projetos-box h3{
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.meus-projetos .projetos-box p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* ESTILO RODAPÉ */
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #ff4242;
+}
+
+footer .line-footer p i{
+    color: #ff4242;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* ESTILO DO MEU CURRÍCULO*/
+section.meu-curriculo{
+    padding: 40px 4%;
+}
+
+section.meu-curriculo .flex{
+    justify-content: space-between;
+}
+
+section.meu-curriculo .interface h3{
+    color: #ff4242;
+    font-size: 37px;
+    margin: 15px 0;
+}
+
+.curriculo-conteudo{
+    margin: 15px 0;
+}
+
+.curriculo-conteudo h3{
+    color: #ff4242;
+    font-size: 35px;
+    margin: 2px 0;
+}
+
+.curriculo-conteudo p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.curriculo-conteudo ul{
+    color: #ffffff;
+    font-size: 20px;
 }
