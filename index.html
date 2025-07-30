@@ -28,9 +28,9 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Sobre Mim</a></li>
-                    <li><a href="#">Portfólio</a></li>
-                    <li><a href="#">Currículo</a></li>
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#curriculo">Currículo</a></li>
                 </ul>
             </nav>
         </div> <!--interface-->
@@ -39,6 +39,7 @@
     <main>
         <section class="topo-do-site">
             <div class="interface">
+                <div id="sobre-mim"></div>
                 <div class="flex">
                     <div class="txt-topo-do-site">
                         <h1>SOBRE MIM</h1>
@@ -60,17 +61,43 @@
 
         <section class="meus-projetos">
             <div class="interface">
-                <h2 class="titulo">MEUS PROJETOS</h2>
+                <div id="portfolio"></div>
+                <h2 class="titulo">PORTFÓLIO</h2>
                 <div class="projetos-box">
                     <div class="flex">
                         <div class="img-projeto">
                             <img src="images/LogoRoller.png" alt="RollerHeistLogo" />
                         </div><!--img-projeto-->
-                        <div class="txt-projeto">
+                        <div class="info-projeto">
                             <h3>Roller Heist</h3>
-                            <p>Roller Heist é um jogo 3D de heist e ação estiloso onde você invade museus com patins e uma arma de paintball para recuperar artefatos históricos e devolvê-los aos seus países de origem.</p>
-                        </div><!--txt-projeto-->
+                            <div class="flex">
+                                <ul>
+                                    <li>Gênero: Ação, heist, tiro</li>
+                                    <li>Plataforma: Windows</li>
+                                    <li>Data: 2026</li>
+                                    <li><a href="https://store.steampowered.com/app/3421310/Roller_Heist/" target="_blank">Steam</a></li>
+                                </ul>
+                                <p>Roller Heist é um jogo de heist e ação estiloso em que você usa patins e uma arma de paintball para recuperar peças roubadas de museus, promovendo a reparação histórica. Deslize pelo museu, evite seguranças e devolva as peças ao seu local de origem enquanto se movimenta com estilo!</p>
+                            </div><!--flex-->
+                        </div><!--info-projeto-->
                     </div><!--flex-->
+                    <div class="descricao-projeto">
+                        <p>Projeto iniciado para o TCC do curso de Design de Games na Anhembi Morumbi que futuramente se tornou nosso primeiro jogo comercial. Exerci, principalmente, o cargo de produtora realizando a separação e demanda de tarefas entre os integrantes da equipe, criando planilhas de produção e usando métodos ágeis como o kanban e o scrum durante nosso desenvolvimento.</p>
+                        <p>Ocupei o cargo de gerente de negócios realizando tarefas voltadas para o nosso estúdio, captação de recursos e oportunidades de visibilidade para o nosso estúdio e jogo, tanto em editais e eventos. Alguns exemplos das tarefas que exerci:</p>
+                        <ul>
+                            <li>Criação de pitch deck;</li>
+                            <li>Planilhas orçamentárias;</li>
+                            <li>Participação no maior edital do estado de São Paulo: Ade Sampa Games 3ª Edição;</li>
+                            <li>Participação no edital internacional Pro Helvetia: She Got Game 2025;</li>
+                            <li>Exposição do Roller Heist em grandes eventos: Gamescom Latam 2025, Brasília Game Fest;</li>
+                            <li>Reuniões B2B na Gamescom Latam 2025 com grandes publishers como: Raw Fury, DANGEN Entertainment, Dojo System Publishing;</li>
+                            <li>Reuniões B2B na Gamescom Colônia 2025;</li>
+                        </ul>
+                        <div class="flex">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                        </div><!--flex-->
+                    </div><!--descrição-projeto-->
                 </div><!--projetos-box-->
 
                 <div class="projetos-box">
@@ -78,15 +105,34 @@
                         <div class="img-projeto">
                             <img src="images/LogoRoller.png" alt="RollerHeistLogo" />
                         </div><!--img-projeto-->
-                        <div class="txt-projeto">
-                            <h3>Anuket's Blessing'</h3>
-                            <p>
-                                After the god of storms and disorder, Seth, cursed a village with a prolonged drought, many of its residents were slowly succumbing to the heat under the scorching sun.
-                                Amidst the chaos, a brave villager set out on a journey far from her home in search of the blessings of the goddess Anuket to help restore her society. From Anuket, she received a staff with spells powerful enough to raise water waves out of thin air.
-                                With her new power, she starts her journey back to the village, determined to bring justice against Seth and end the drought.
-                            </p>
-                        </div><!--txt-projeto-->
+                        <div class="info-projeto">
+                            <h3>Anuket's Blessing</h3>
+                            <div class="flex">
+                                <ul>
+                                    <li>Gênero: Plataforma, ação, aventura</li>
+                                    <li>Plataforma: Navegador</li>
+                                    <li>Data: 2024/1</li>
+                                    <li><a href="https://crismarie.itch.io/anukets-blessing" target="_blank">Itch.io</a></li>
+                                </ul>
+                                <p>
+                                    Após o deus das tempestades e da desordem, Seth, amaldiçoar uma vila com uma seca prolongada, muitos de seus moradores sucumbiram lentamente ao calor sob o sol escaldante.
+                                    <span>Em meio ao caos, uma corajosa aldeã partiu em uma jornada longe de casa em busca das bênçãos da deusa Anuket para ajudar a restaurar sua sociedade. De Anuket, ela recebeu um cajado com feitiços poderosos o suficiente para erguer ondas de água do nada.</span>
+                                    <span>Com seu novo poder, ela inicia sua jornada de volta à vila, determinada a fazer justiça contra Seth e acabar com a seca.</span>
+                                </p>
+                            </div><!--flex-->
+                        </div><!--info-projeto-->
                     </div><!--flex-->
+                    <div class="descricao-projeto">
+                        <p>O projeto foi realizado para a Pixel Game Jam 2024. Atuei como produtora fazendo a divisão de tarefas entre os integrantes, criei e implementei o level design através de tilesets e fiz as seguintes mecânicas:</p>
+                        <ul>
+                            <li>Ações do personagem (andar, nadar, pular, atirar);</li>
+                            <li>Boss com níveis e ataques diferentes, assim como suas animações feitas diretamente no Unity.</li>
+                        </ul>
+                        <div class="flex">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                        </div><!--flex-->
+                    </div><!--descrição-projeto-->
                 </div><!--projetos-box-->
 
                 <div class="projetos-box">
@@ -94,11 +140,38 @@
                         <div class="img-projeto">
                             <img src="images/LogoRoller.png" alt="RollerHeistLogo" />
                         </div><!--img-projeto-->
-                        <div class="txt-projeto">
+                        <div class="info-projeto">
                             <h3>Friends Vs Monstros</h3>
-                            <p>Roller Heist é um jogo 3D de heist e ação estiloso onde você invade museus com patins e uma arma de paintball para recuperar artefatos históricos e devolvê-los aos seus países de origem.</p>
-                        </div><!--txt-projeto-->
+                            <div class="flex">
+                                <ul>
+                                    <li>Gênero: Sobrevivência, estratégia</li>
+                                    <li>Plataforma: Navegador</li>
+                                    <li>Data: 2024/1</li>
+                                    <li><a href="https://mrgoldfunkyboy.itch.io/friends-v-monstros" target="_blank">Itch.io</a></li>
+                                </ul>
+                                <p>
+                                    Saudações Jogador!
+                                    <span>Você é um ferreiro-mercador, porque a vida não é de graça- Mas o que é aquilo?</span>
+                                    <span>GUERREIROS! Correndo em sua direção! E monstros vindo da floresta!</span>
+                                    <span>Apenas você pode criar as melhores armas. Crie armas o mais rápido que puder e salve a cidade!</span>
+                                </p>
+                            </div><!--flex-->
+                        </div><!--info-projeto-->
                     </div><!--flex-->
+                    <div class="descricao-projeto">
+                        <p>O projeto foi realizado para a game jam New Year, New Skills Game Jam com duração de 1 semana. Atuei na área de programação realizando a criação de todas as mecânicas do jogo e implementação de assets e aúdio. As principais mecânicas são:</p>
+                        <ul>
+                            <li>Drop aleatório de 3 matérias-primas que caem do céu;</li>
+                            <li>Junção de duas matérias-primas que resultam em uma arma (cada combinação resulta em uma arma específica);</li>
+                            <li>Armas possuem diferentes status de durabilidade e dano;</li>
+                            <li>Entrega dessa arma para os guerreiros atacarem os monstros, eles voltam assim que a durabilidade da arma acaba;</li>
+                            <li>Monstros com diferentes status de velocidade e vida que aparecem progressivamente mais rápido à medida que o tempo passa.</li>
+                        </ul>
+                        <div class="flex">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                        </div><!--flex-->
+                    </div><!--descrição-projeto-->
                 </div><!--projetos-box-->
 
                 <div class="projetos-box">
@@ -106,18 +179,39 @@
                         <div class="img-projeto">
                             <img src="images/LogoRoller.png" alt="RollerHeistLogo" />
                         </div><!--img-projeto-->
-                        <div class="txt-projeto">
+                        <div class="info-projeto">
                             <h3>Antopia</h3>
-                            <p>Roller Heist é um jogo 3D de heist e ação estiloso onde você invade museus com patins e uma arma de paintball para recuperar artefatos históricos e devolvê-los aos seus países de origem.</p>
-                        </div><!--txt-projeto-->
+                            <div class="flex">
+                                <ul>
+                                    <li>Gênero: Simulação</li>
+                                    <li>Plataforma: Windows</li>
+                                    <li>Data: 2023/1</li>
+                                    <li><a href="https://wvi11im.itch.io/antopia" target="_blank">Itch.io</a></li>
+                                </ul>
+                                <p>Com uma temática de conscientização do meio ambiente, nesse jogo você gerencia um formigueiro que para progredir necessita coletar lixo, reciclá-los e transformá-los em construções para a cidade.</p>
+                            </div><!--flex-->
+                        </div><!--info-projeto-->
                     </div><!--flex-->
+                    <div class="descricao-projeto">
+                        <p>Projeto realizado para um curso de extensão da faculdade com a participação de estudantes do ensino médio. Na área de programação contribui com a criação das mecânicas:</p>
+                        <ul>
+                            <li>Movimentação de câmera pelo cenário utilizando o mouse.</li>
+                            <li>Modo de edição com verificação e feedback de colisão com outras construções.</li>
+                            <li>Construções com propriedades que dão itens diferentes ao  jogador após um determinado tempo.</li>
+                        </ul>
+                        <div class="flex">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                            <img src="images/gifs/GifTeste.gif" alt="">
+                        </div><!--flex-->
+                    </div><!--descrição-projeto-->
                 </div><!--projetos-box-->
             </div><!--interface-->
         </section><!--meus-projetos-->
 
         <section class="meu-curriculo">
             <div class="interface">
-                <h2 class="titulo">MEU CURRÍCULO</h2>
+                <div id="curriculo"></div>
+                <h2 class="titulo">CURRÍCULO</h2>
                 <h3>CRISTINA MARIANA VENANCIO NIETO</h3>
                 <div class="curriculo-conteudo">
                     <ul>

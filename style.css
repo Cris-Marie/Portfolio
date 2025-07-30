@@ -108,7 +108,7 @@ section.meus-projetos{
 }
 
 section.meus-projetos .flex{
-    gap: 60px;
+    gap: 50px;
 }
 
 .meus-projetos .projetos-box{
@@ -124,9 +124,32 @@ section.meus-projetos .flex{
     margin: 15px 0;
 }
 
+.meus-projetos .projetos-box .img-projeto img{
+    width: 300px;
+}
+
 .meus-projetos .projetos-box p{
     font-size: 20px;
     text-align: justify;
+}
+
+.meus-projetos .projetos-box ul {
+    font-size: 20px;
+}
+
+.meus-projetos .projetos-box .info-projeto ul{
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.meus-projetos .projetos-box .info-projeto .flex p span{
+    display: block;
+}
+
+.meus-projetos .projetos-box .descricao-projeto .flex img {
+    padding: 15px 0;
+    width: 47%;
+    height: 47%;
 }
 
 /* ESTILO RODAPÉ */
