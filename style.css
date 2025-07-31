@@ -90,6 +90,10 @@ section.topo-do-site .flex{
     margin: 35px 0;
 }
 
+.topo-do-site .img-topo-site img {
+    width: 400px;
+}
+
 .btn-social button {
     width: 60px;
     height: 60px;
@@ -125,7 +129,9 @@ section.meus-projetos .flex{
 }
 
 .meus-projetos .projetos-box .img-projeto img{
-    width: 300px;
+    padding: 15px 0;
+    width: 350px;
+    border-radius: 30px;
 }
 
 .meus-projetos .projetos-box p{
@@ -137,9 +143,17 @@ section.meus-projetos .flex{
     font-size: 20px;
 }
 
+.meus-projetos .projetos-box .info-projeto{
+    margin: 10px 0;
+}
+
 .meus-projetos .projetos-box .info-projeto ul{
     font-size: 20px;
     white-space: nowrap;
+}
+
+.meus-projetos .projetos-box .info-projeto ul a{
+    color: #ffffff;
 }
 
 .meus-projetos .projetos-box .info-projeto .flex p span{
@@ -150,34 +164,6 @@ section.meus-projetos .flex{
     padding: 15px 0;
     width: 47%;
     height: 47%;
-}
-
-/* ESTILO RODAPÉ */
-footer{
-    padding: 60px 4%;
-    box-shadow: 0 0 40px 10px #ffffff;
-}
-
-footer .flex{
-    justify-content: space-between;
-}
-
-footer .line-footer{
-    padding: 20px 0;
-}
-
-.borda{
-    border-top: 2px solid #ff4242;
-}
-
-footer .line-footer p i{
-    color: #ff4242;
-    font-size: 22px;
-}
-
-footer .line-footer p a{
-    color: #ffffff;
-    font-size: 20px;
 }
 
 /* ESTILO DO MEU CURRÍCULO*/
@@ -214,3 +200,32 @@ section.meu-curriculo .interface h3{
     color: #ffffff;
     font-size: 20px;
 }
+
+/* ESTILO RODAPÉ */
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ff424220;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid #ff4242;
+}
+
+footer .line-footer p i{
+    color: #ff4242;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #ffffff;
+    font-size: 20px;
+}
+
