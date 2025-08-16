@@ -34,8 +34,9 @@ button:hover{
 }
 
 /* ESTILO CABEÇALHO */
-header{
+header {
     padding: 40px 4%;
+    box-shadow: 0 0 40px 5px #ff424220;
 }
 
 header > .interface{
@@ -70,6 +71,7 @@ header nav ul li{
 /*   ESTILO DO TOPO DO SITE */
 section.topo-do-site{
     padding: 40px 4%;
+    padding-top: 60px;
 }
 
 section.topo-do-site .flex{
@@ -115,12 +117,24 @@ section.meus-projetos .flex{
     gap: 50px;
 }
 
-.meus-projetos .projetos-box{
+.meus-projetos .interface .mais-projetos p {
+    padding: 40px 4%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.meus-projetos .interface .mais-projetos a{
+    color: #ffffff;
+}
+
+.meus-projetos .projetos-box {
     color: #ffffff;
     padding: 40px;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     /*border: 2px solid #ffffff;*/
-    margin-top: 40px;
+    margin-top: 0px;
+    border-bottom: 2px solid #ff4242
 }
 
 .meus-projetos .projetos-box h3{
@@ -160,6 +174,14 @@ section.meus-projetos .flex{
     display: block;
 }
 
+.meus-projetos .projetos-box .descricao-projeto{
+    margin: 10px 0;
+}
+
+.meus-projetos .projetos-box .descricao-projeto ul{
+    margin-left: 30px;
+}
+
 .meus-projetos .projetos-box .descricao-projeto .flex img {
     padding: 15px 0;
     width: 47%;
@@ -169,42 +191,45 @@ section.meus-projetos .flex{
 /* ESTILO DO MEU CURRÍCULO*/
 section.meu-curriculo{
     padding: 40px 4%;
+    padding-bottom: 60px;
 }
 
 section.meu-curriculo .flex{
     justify-content: space-between;
 }
-
+/*
 section.meu-curriculo .interface h3{
     color: #ff4242;
     font-size: 37px;
-    margin: 15px 0;
+    margin: 15px 0px;
 }
+*/
 
 .curriculo-conteudo{
-    margin: 15px 0;
+    padding: 15px 40px;
 }
 
 .curriculo-conteudo h3{
     color: #ff4242;
     font-size: 35px;
-    margin: 2px 0;
 }
 
-.curriculo-conteudo p{
+.curriculo-conteudo p {
     color: #ffffff;
     font-size: 20px;
+    text-align: justify;
 }
 
 .curriculo-conteudo ul{
     color: #ffffff;
     font-size: 20px;
+    margin-left: 30px;
 }
 
 /* ESTILO RODAPÉ */
 footer{
-    padding: 60px 4%;
-    box-shadow: 0 0 40px 10px #ff424220;
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 5px #ff424220;
 }
 
 footer .flex{
@@ -229,3 +254,53 @@ footer .line-footer p a{
     font-size: 20px;
 }
 
+@media screen and (max-width: 1150px){
+    /* CLASSES GERAIS */
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop{
+        display: none;
+    }
+
+    /* TOPO  DO SITE */
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /* ESTILO DOS MEUS PROJETOS */
+    section.meus-projetos {
+        padding: 40px 8%;
+    }
+
+    section.meus-projetos .flex {
+        gap: 20px;
+    }
+
+    .meus-projetos .projetos-box {
+        padding: 40px;
+    }
+
+    .meus-projetos .projetos-box .img-projeto img {
+        width: 250px;
+        text-align: center;
+    }
+
+    .meus-projetos .projetos-box .descricao-projeto .flex img {
+        width: 100%;
+    }
+}
